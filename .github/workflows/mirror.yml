@@ -34,7 +34,7 @@ concurrency:
 jobs:
   mirror:
     # Forks have neither the secret nor a mirror to push to.
-    if: github.repository == 'DuarteSantos8/openGym'
+    if: github.repository == 'maximejolivet/keepushing'
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:

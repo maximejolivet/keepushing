@@ -876,7 +876,7 @@ release:
       | \`$CI_REGISTRY_IMAGE/api\` | \`$SEMVER\` \`$MINOR\` \`latest\` | \`$IMAGE_DIGEST_API\` |
       | \`$CI_REGISTRY_IMAGE/web\` | \`$SEMVER\` \`$MINOR\` \`latest\` | \`$IMAGE_DIGEST_WEB\` |
 
-      Both images are linux/amd64 + linux/arm64. The Android APK and the store apps are on the GitHub release: https://github.com/DuarteSantos8/openGym/releases/tag/$CI_COMMIT_TAG. Built from $CI_COMMIT_SHA.
+      Both images are linux/amd64 + linux/arm64. The Android APK and the store apps are on the GitHub release: https://github.com/maximejolivet/keepushing/releases/tag/$CI_COMMIT_TAG. Built from $CI_COMMIT_SHA.
       EOF
       cat release-notes.md
   release:
@@ -886,7 +886,7 @@ release:
     assets:
       links:
         - name: "Android APK (GitHub release)"
-          url: "https://github.com/DuarteSantos8/openGym/releases/tag/$CI_COMMIT_TAG"
+          url: "https://github.com/maximejolivet/keepushing/releases/tag/$CI_COMMIT_TAG"
           link_type: package
         - name: "Container images (api + web)"
           url: "$CI_PROJECT_URL/container_registry"
